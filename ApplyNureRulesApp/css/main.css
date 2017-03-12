@@ -1,0 +1,133 @@
+
+body {
+	/*background: linear-gradient(to left, #d1c8b8 40%, #f6f1e3 100%);*/
+	background:  #efefef;
+  color: #666;
+  font-size: 14px;
+}
+.navbar {
+  padding: 15px;
+  background: #fcfcfc;
+  text-transform: uppercase;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	font-size: 16px;
+}
+
+.review_title {
+	margin: 0 0 20px 0;
+}
+
+.reviews {
+	padding: 15px 0;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.thumbnail:hover{
+  opacity: 0.5;
+	padding: 5px;
+}
+
+.single {
+  padding: 30px 15px;
+  margin-top: 40px;
+  background: #fcfcfc;
+  border: 1px solid #f0f0f0;
+ }
+
+ .index{
+	 margin-top: -20px;
+ }
+
+.single h3.side-title {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 26px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.single h3.side-title:after {
+  content: '';
+  width: 70px;
+  height: 2px;
+  background: #174986;
+  display: block;
+  margin-top: 6px;
+ }
+
+.single ul {
+  margin-bottom: 0;
+}
+.single li a {
+  color: #666;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 40px;
+  display: block;
+  text-decoration: none;
+}
+
+.single li a:hover {
+  color: #ff173c;
+}
+.single li:last-child a{
+  border-bottom: 0;
+}
+
+.brand{
+	margin-top: 4px;
+}
+
+/*Steps*/
+.stepwizard-step p {
+    margin-top: 10px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+.stepwizard-step button:active {
+  background: #1b4b89;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 16px;
+    /*line-height: 1.428571429;*/
+    border-radius: 25px;
+}
+
+.content{
+	margin-top: 100px;
+}
+
+.prevBtn{
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.nextBtn{
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.index-title{
+	font-size: 28px;
+	color: #174986;
+	text-transform: uppercase;
+}

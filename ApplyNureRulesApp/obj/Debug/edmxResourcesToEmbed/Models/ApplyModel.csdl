@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ApplyRulesDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Content">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ImgURL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AdminId" Type="Int32" Nullable="false" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Content_ToTable" FromRole="Content" ToRole="Users" />
+    <NavigationProperty Name="UserCategory" Relationship="Self.FK_Content_ToTable_1" FromRole="Content" ToRole="UserCategories" />
+  </EntityType>
+  <EntityType Name="Term">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Term1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Definition" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdminId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Terms_ToTable" FromRole="Terms" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Contents" Relationship="Self.FK_Content_ToTable_1" FromRole="UserCategories" ToRole="Content" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Contents" Relationship="Self.FK_Content_ToTable" FromRole="Users" ToRole="Content" />
+    <NavigationProperty Name="Terms" Relationship="Self.FK_Terms_ToTable" FromRole="Users" ToRole="Terms" />
+  </EntityType>
+  <Association Name="FK_Content_ToTable">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Content" Type="Self.Content" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Content">
+        <PropertyRef Name="AdminId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Content_ToTable_1">
+    <End Role="UserCategories" Type="Self.UserCategory" Multiplicity="1" />
+    <End Role="Content" Type="Self.Content" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserCategories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Content">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Terms_ToTable">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Terms" Type="Self.Term" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Terms">
+        <PropertyRef Name="AdminId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ApplyRulesDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Contents" EntityType="Self.Content" />
+    <EntitySet Name="Terms" EntityType="Self.Term" />
+    <EntitySet Name="UserCategories" EntityType="Self.UserCategory" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Content_ToTable" Association="Self.FK_Content_ToTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Content" EntitySet="Contents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Content_ToTable_1" Association="Self.FK_Content_ToTable_1">
+      <End Role="UserCategories" EntitySet="UserCategories" />
+      <End Role="Content" EntitySet="Contents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Terms_ToTable" Association="Self.FK_Terms_ToTable">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Terms" EntitySet="Terms" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,133 @@
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csc.exe
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csc.exe.config
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csc.rsp
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csi.exe
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csi.rsp
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.AppContext.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.IO.FileSystem.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\vbc.exe
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\vbc.exe.config
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\vbc.rsp
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\VBCSCompiler.exe
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ApplyNureRulesApp.dll.config
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ApplyNureRulesApp.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ApplyNureRulesApp.pdb
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\Newtonsoft.Json.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Net.Http.Formatting.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Helpers.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.WebHost.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Mvc.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Razor.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Deployment.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Razor.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Razor.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Deployment.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Razor.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Helpers.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Mvc.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\Newtonsoft.Json.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Net.Http.Formatting.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.WebHost.xml
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Razor.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Webpages.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Webpages.Deployment.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Webpages.Razor.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Helpers.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Mvc.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Net.Http.Formatting.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Http.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Http.WebHost.resources.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\obj\Debug\ApplyNureRulesApp.csprojResolveAssemblyReference.cache
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\obj\Debug\ApplyNureRulesApp.dll
+c:\users\zheny\onedrive\documents\visual studio 2017\Projects\ApplyNureRulesApp\ApplyNureRulesApp\obj\Debug\ApplyNureRulesApp.pdb
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csc.exe
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csc.exe.config
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csc.rsp
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csi.exe
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\csi.rsp
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.AppContext.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\vbc.exe
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\vbc.exe.config
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\vbc.rsp
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ApplyNureRulesApp.dll.config
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ApplyNureRulesApp.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ApplyNureRulesApp.pdb
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\EntityFramework.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\Newtonsoft.Json.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Helpers.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Mvc.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Razor.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\EntityFramework.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Razor.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Helpers.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Mvc.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\Newtonsoft.Json.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\EntityFramework.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Http.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\obj\Debug\ApplyNureRulesApp.csprojResolveAssemblyReference.cache
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\obj\Debug\ApplyNureRulesApp.dll
+C:\Users\Jake\Documents\ASP.NET\ApplyNureRulesApp\ApplyNureRulesApp\obj\Debug\ApplyNureRulesApp.pdb
