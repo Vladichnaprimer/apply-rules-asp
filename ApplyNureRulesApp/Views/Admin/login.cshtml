@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = "~/Views/Home/MasterView.cshtml";
+}
+
+<div class="col-md-3 col-md-offset-4">
+    <div class="single form-background" >
+        <div class="text-center">
+            <div class="logo">Вхід до системи</div>
+            <div class="alert">
+                @if (TempData["Message"] != null)
+            {
+                    @TempData["Message"].ToString();
+            }
+            </div>
+            <div class="login-form-1">
+                <form id="login-form" class="text-left" action="@Url.Content("/Admin/Login/")" method="post">
+                    <div class="login-form-main-message"></div>
+                    <div class="main-login-form">
+                        <div class="login-group">
+                            <div class="form-group">
+                                <label for="lg_username" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="lg_username" name="email" placeholder="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lg_password" class="sr-only">Password</label>
+                                <input type="password" class="form-control" id="lg_password" name="password" placeholder="password" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

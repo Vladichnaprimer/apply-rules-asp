@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = "~/Views/Home/MasterView.cshtml";
+}
+
+<div class="container content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="single">
+                <h3 class="side-title">Додати</h3>
+                <br>
+
+                <form role="form" id="contact-form" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="Title" autocomplete="off" id="Name" placeholder="Заголовок">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <select class="form-control selectpicker" class="form-control">
+                                    <option>Випускники шкіл</option>
+                                    <option>Випускники коледжів</option>
+                                    <option>Бакалаври</option>
+                                    <option>Магістри</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Додати контент"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button type="submit" class="btn main-btn pull-right">Додати</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+

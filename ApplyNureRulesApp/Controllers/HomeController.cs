@@ -25,7 +25,5 @@ namespace ApplyNureRulesApp.Controllers
             var content = db.Contents;
             return View(content);
         }
-
-
     }
 }
