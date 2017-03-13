@@ -10,7 +10,7 @@
                 <h3 class="side-title">Додати</h3>
                 <br>
 
-                <form role="form" id="contact-form" class="contact-form">
+                <form role="form" id="contact-form" class="contact-form" action="@Url.Content("/Dashboard/Add")" method="post">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -19,11 +19,11 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <select class="form-control selectpicker" class="form-control">
-                                    <option>Випускники шкіл</option>
-                                    <option>Випускники коледжів</option>
-                                    <option>Бакалаври</option>
-                                    <option>Магістри</option>
+                                <select class="form-control selectpicker" id="category">
+                                    <option value="1">Випускники шкіл</option>
+                                    <option value="2">Випускники коледжів</option>
+                                    <option value="3">Бакалаври</option>
+                                    <option value="4">Магістри</option>
                                 </select>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Додати контент"></textarea>
+                                <textarea class="form-control textarea" rows="3" name="Description" id="Message" placeholder="Додати контент"></textarea>
                             </div>
                         </div>
                     </div>
