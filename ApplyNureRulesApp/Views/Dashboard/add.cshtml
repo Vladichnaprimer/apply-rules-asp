@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = "~/Views/Home/MasterView.cshtml";
 }
 
@@ -31,16 +30,17 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <textarea class="form-control textarea" rows="3" name="Description" id="Message" placeholder="Додати контент"></textarea>
+                                <textarea class="myClass" rows="3" name="Description" id="Message" placeholder="Додати контент"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <button class="btn main-btn pull-left">@Html.ActionLink("Вiдмiна","Index")</button>
+                            <button class="btn main-btn pull-left">@Html.ActionLink("Вiдмiна","Index", "Terms", new { Style = "color: #ffffff" })</button>
                             <button type="submit" class="btn main-btn pull-right">Додати</button>
                         </div>
                     </div>
+                    
                 </form>
 
             </div>

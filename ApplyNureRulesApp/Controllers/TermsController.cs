@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ApplyNureRulesApp.Models;
+using System.Net;
 
 namespace ApplyNureRulesApp.Controllers
 {
@@ -48,7 +49,6 @@ namespace ApplyNureRulesApp.Controllers
 
         public ActionResult Edit(int id)
         {
-
             var term = db.Contents.Where(x => x.Id == id).FirstOrDefault();
             return View(term);
         }
@@ -71,5 +71,24 @@ namespace ApplyNureRulesApp.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Term term = db.Terms.Find(id);
+            if (term == null)
+            {
+                return HttpNotFound();
+            }
+
+            db.Terms.Remove(term);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+       
     }
 }

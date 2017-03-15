@@ -235,6 +235,8 @@
     <Content Include="Views\Terms\Index.cshtml" />
     <Content Include="Views\Terms\Add.cshtml" />
     <Content Include="Views\Terms\Edit.cshtml" />
+    <Content Include="Views\Home\Rules.cshtml" />
+    <Content Include="Views\Home\Terms.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using ApplyNureRulesApp.Models;
 using System.Web.UI.HtmlControls;
+using System.Net;
 
 namespace ApplyNureRulesApp.Controllers
 {
@@ -14,6 +15,7 @@ namespace ApplyNureRulesApp.Controllers
 
         // GET: Dashboard
         [Authorize]
+        [ValidateInput(false)]
         public ActionResult Index()
         {
             //var content = (from cont in db.Contents
@@ -32,6 +34,7 @@ namespace ApplyNureRulesApp.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Add(FormCollection form)
         {
             string title = form["Title"].ToString();
@@ -76,5 +79,23 @@ namespace ApplyNureRulesApp.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Content content = db.Contents.Find(id);
+            if (content == null)
+            {
+                return HttpNotFound();
+            }
+
+            db.Contents.Remove(content);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }

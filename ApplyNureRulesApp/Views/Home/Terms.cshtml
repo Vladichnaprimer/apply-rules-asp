@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ApplyNureRulesApp.Models.Term>
+@{
+    ViewBag.Title = "Terms";
+    Layout = "~/Views/Home/MasterView.cshtml";
+}
+
+<div class="container content">
+
+    <div class="row">
+
+
+        <div class="col-md-12">
+            <div class="single" >
+                <h3 class="side-title">Основні терміни</h3>
+                <h4><strong>У цих Правилах терміни вживаються в таких значеннях:</strong></h4>
+            </div>
+            @foreach (var item in Model)
+            {
+                <div class="single">
+
+                    <h4><strong>@Html.DisplayFor(modelItem => item.Term1)</strong> - @Html.DisplayFor(modelItem => item.Definition)</h4>
+                    <br>
+
+                </div>
+            }
+
+            <br /> <br />
+
+            <span>
+                <a href="#top" class="btn btn-primary nextBtn btn-lg pull-right" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+                    <i class="glyphicon glyphicon-chevron-up"></i>
+                </a>
+            </span>
+
+            <br><br>
+
+        </div>
+
+    </div>
+
+</div>

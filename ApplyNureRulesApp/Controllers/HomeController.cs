@@ -20,10 +20,17 @@ namespace ApplyNureRulesApp.Controllers
         {
             return View();
         }
+        [ValidateInput(false)]
         public ActionResult Rules()
         {
             var content = db.Contents;
             return View(content);
+        }
+
+        public ActionResult Terms()
+        {
+            var term = db.Terms;
+            return View(term);
         }
     }
 }

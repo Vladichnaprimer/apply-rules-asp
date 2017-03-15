@@ -20,6 +20,21 @@
     <script src="https://use.fontawesome.com/7486310053.js"></script>
     <link href="~/css/main.css" rel="stylesheet">
     <link href="~/css/formstyle.css" rel="stylesheet">
+    <script src="//cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+
+    <script>
+        function replaceThemAll() {
+            var ans = $(".myClass").val();
+            ans = ans.replace(/"/g, '&quot;');
+            ans = ans.replace(/'/g, '&#39;');
+            ans = ans.replace(/</g, '&lt;');
+            ans = ans.replace(/>/g, '&gt;');
+            ans = ans.replace(/&/g, '&amp;');
+            alert(ans);
+            $(".myClass").val(ans);
+        }
+    </script>
 
 </head>
 
@@ -41,13 +56,13 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Правила прийому <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Випускникам шкіл</a></li>
+                            <li><a href="@Url.Action("Rules", "Home")">Випускникам шкіл</a></li>
                             <li><a href="#">Випускникам колледжів</a></li>
                             <li><a href="#">Бакалаврам</a></li>
                             <li><a href="#">Магістрам</a></li>
                         </ul>
                     </li>
-                    <li><a href="terms.html">Основні терміни</a></li>
+                    <li><a href="@Url.Action("Terms", "Home")">Основні терміни</a></li>
                     <li><a href="@Url.Action("Contact", "Home")">Контакти</a></li>
                 </ul>
                 @if (Request.IsAuthenticated)
@@ -57,7 +72,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> @User.Identity.Name <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="@Url.Content("/Dashboard/Add/")">Додати</a></li>
+                                <li><a href="@Url.Content("/Dashboard/Index/")">Управління правилами</a></li>
+                                <li><a href="@Url.Content("/Terms/Index/")">Управління термінами</a></li>
                                 <li><a href="@Url.Content("/Admin/Logout/")">Вийти</a></li>
 
                             </ul>
