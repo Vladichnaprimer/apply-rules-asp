@@ -32,7 +32,11 @@
                         </strong>
                     </h4>
 
-                        @Html.Raw(@Html.DisplayFor(modelItem => item.Description))
+                       
+
+                    @Html.Raw(System.Web.HttpUtility.HtmlDecode(item.Description))
+
+
 
                 }
             </div>
