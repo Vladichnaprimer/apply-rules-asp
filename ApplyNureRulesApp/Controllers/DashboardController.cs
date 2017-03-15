@@ -46,10 +46,34 @@ namespace ApplyNureRulesApp.Controllers
             content.Description = description;
             content.Title = title;
 
-
             db.Contents.Add(content);
             db.SaveChanges();
 
+            return RedirectToAction("Index");
+        }
+
+        
+        public ActionResult Edit(int id) {
+
+            var content = db.Contents.Where(x => x.Id == id).FirstOrDefault();
+            return View(content);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(FormCollection form)
+        {
+            int id = Convert.ToInt32(form["Id"].ToString());
+            var content = db.Contents.Where(x => x.Id == id).FirstOrDefault();
+
+            string title = form["Title"].ToString();
+            string description = form["Description"].ToString();
+
+            content.AdminId = 1;
+            content.CategoryId = 1;
+            content.Description = description;
+            content.Title = title;
+
+            db.SaveChanges();
             return RedirectToAction("Index");
         }
     }

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Home/MasterView.cshtml";
+}
+
+<div class="container content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="single">
+                <h3 class="side-title">Додати</h3>
+                <br>
+
+                <form role="form" id="contact-form" class="contact-form" action="@Url.Content("/Terms/Add")" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="Title" autocomplete="off" id="Name" placeholder="Заголовок">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control textarea" rows="3" name="Description" id="Message" placeholder="Додати контент"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn main-btn pull-left">@Html.ActionLink("Вiдмiна", "Index")</button>
+                            <button type="submit" class="btn main-btn pull-right">Додати</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+

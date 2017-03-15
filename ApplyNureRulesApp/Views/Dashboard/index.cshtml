@@ -17,10 +17,10 @@
                     @Html.DisplayNameFor(model => model.Title)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Description)
+                    Опис
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.CategoryId)
+                    Категорiя
                 </th>
                 <th></th>
             </tr>
@@ -38,9 +38,9 @@
                         @Html.DisplayFor(modelItem => item.CategoryId)
                     </td>
                     <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Редагувати", "Edit", new { id = item.Id }) |
 
-                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        @Html.ActionLink("Видалити", "Delete", new { id = item.Id })
                     </td>
                 </tr>
             }
