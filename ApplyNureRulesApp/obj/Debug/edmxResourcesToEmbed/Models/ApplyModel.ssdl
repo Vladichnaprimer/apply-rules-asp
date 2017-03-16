@@ -15,7 +15,7 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Term" Type="varchar" MaxLength="30" Nullable="false" />
     <Property Name="Definition" Type="varchar(max)" Nullable="false" />
     <Property Name="AdminId" Type="int" Nullable="false" />

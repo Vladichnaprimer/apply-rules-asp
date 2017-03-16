@@ -49,7 +49,7 @@ namespace ApplyNureRulesApp.Controllers
 
         public ActionResult Edit(int id)
         {
-            var term = db.Contents.Where(x => x.Id == id).FirstOrDefault();
+            var term = db.Terms.Where(x => x.Id == id).FirstOrDefault();
             return View(term);
         }
 

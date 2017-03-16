@@ -58,7 +58,7 @@ namespace ApplyNureRulesApp.Controllers
         
         public ActionResult Edit(int id) {
 
-            var content = db.Contents.Where(x => x.Id == id).FirstOrDefault();
+            var content = db.Contents.Find(id);
             return View(content);
         }
 

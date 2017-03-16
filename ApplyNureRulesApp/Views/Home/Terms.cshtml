@@ -18,9 +18,8 @@
             {
                 <div class="single">
 
-                    <h4><strong>@Html.DisplayFor(modelItem => item.Term1)</strong> - @Html.DisplayFor(modelItem => item.Definition)</h4>
+                    <strong>@Html.DisplayFor(modelItem => item.Term1)</strong> - @Html.Raw(System.Web.HttpUtility.HtmlDecode(item.Definition))
                     <br>
-
                 </div>
             }
 
