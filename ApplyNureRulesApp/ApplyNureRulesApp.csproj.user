@@ -9,6 +9,7 @@
     <WebStackScaffolding_LayoutPageFile>~/Views/Home/MasterView.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
+    <WebStackScaffolding_DbContextTypeFullName>ApplyNureRulesApp.Models.ApplyRulesDBEntities</WebStackScaffolding_DbContextTypeFullName>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

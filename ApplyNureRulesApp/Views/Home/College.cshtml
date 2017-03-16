@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ApplyNureRulesApp.Models.Content>
+@{
+    ViewBag.Title = "College";
+    Layout = "~/Views/Home/MasterView.cshtml";
+}
+
+
+<div class="container content">
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="single category">
+                <h3 class="side-title">Хто ви</h3>
+                <ul class="list-unstyled">
+                    <li><a href="@Url.Action("School","Home")" title="">Випускник школи</a></li>
+                    <li><a href="@Url.Action("College","Home")" " title="">Випускник колледжу</a></li>
+                    <li><a href="@Url.Action("Bachelor","Home")" " title="">Бакалавр</a></li>
+                    <li><a href="@Url.Action("Master","Home")" " title="">Магістр</a></li>
+                    <li><a href="@Url.Action("Redemption","Home")" title="">Пільговик</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="single">
+                <h3 class="side-title">Деталі прийому</h3>
+                @foreach (var item in Model)
+                {
+                    <br>
+                    <h4><strong>@Html.DisplayFor(modelItem => item.Title)</strong></h4>
+                    @Html.Raw(System.Web.HttpUtility.HtmlDecode(item.Description))
+                }
+            </div>
+            <br /> <br />
+            <span>
+                <a href="#top" class="btn btn-primary nextBtn btn-lg pull-right" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+                    <i class="glyphicon glyphicon-chevron-up"></i>
+                </a>
+            </span>
+        </div>
+    </div>
+</div>
+

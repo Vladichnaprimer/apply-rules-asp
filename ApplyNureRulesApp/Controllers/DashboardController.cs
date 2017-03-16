@@ -27,6 +27,25 @@ namespace ApplyNureRulesApp.Controllers
             return View(content);
         }
 
+        [ChildActionOnly]
+        public ActionResult FormOptions(int categoryId = 0)
+        {
+            var Items = db.UserCategories;
+            string str = "";
+            foreach (var item in Items)
+            {
+                if (categoryId == item.Id)
+                {
+                    str += "<option value=" + item.Id + " selected>" + item.Title + "</option>";
+                }
+                else
+                {
+                    str += "<option value=" + item.Id + " >" + item.Title + "</option>";
+                }
+            }
+            return Content(str);
+        }
+
         [Authorize]
         public ActionResult Add()
         {
@@ -63,6 +82,7 @@ namespace ApplyNureRulesApp.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Edit(FormCollection form)
         {
             int id = Convert.ToInt32(form["Id"].ToString());
@@ -72,7 +92,6 @@ namespace ApplyNureRulesApp.Controllers
             string description = form["Description"].ToString();
 
             content.AdminId = 1;
-            content.CategoryId = 1;
             content.Description = description;
             content.Title = title;
 

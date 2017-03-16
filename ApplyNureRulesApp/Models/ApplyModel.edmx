@@ -10,9 +10,9 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Description" Type="varchar(max)" Nullable="false" />
-          <Property Name="ImgURL" Type="varchar" MaxLength="50" />
+          <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ImgURL" Type="nvarchar" MaxLength="50" />
           <Property Name="AdminId" Type="int" Nullable="false" />
           <Property Name="CategoryId" Type="int" Nullable="false" />
         </EntityType>
@@ -21,8 +21,8 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Term" Type="varchar" MaxLength="30" Nullable="false" />
-          <Property Name="Definition" Type="varchar(max)" Nullable="false" />
+          <Property Name="Term" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Definition" Type="nvarchar(max)" Nullable="false" />
           <Property Name="AdminId" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="UserCategories">
@@ -30,7 +30,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" Nullable="false" />
-          <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityType Name="Users">
           <Key>
@@ -103,9 +103,9 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="ImgURL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ImgURL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="AdminId" Type="Int32" Nullable="false" />
           <Property Name="CategoryId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="User" Relationship="Self.FK_Content_ToTable" FromRole="Content" ToRole="Users" />
@@ -116,8 +116,8 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Term1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="Definition" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Term1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Definition" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="AdminId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="User" Relationship="Self.FK_Terms_ToTable" FromRole="Terms" ToRole="Users" />
         </EntityType>
@@ -126,7 +126,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="Contents" Relationship="Self.FK_Content_ToTable_1" FromRole="UserCategories" ToRole="Content" />
         </EntityType>
         <EntityType Name="User">

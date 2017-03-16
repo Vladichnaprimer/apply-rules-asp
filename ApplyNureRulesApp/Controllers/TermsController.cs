@@ -14,6 +14,7 @@ namespace ApplyNureRulesApp.Controllers
 
         // GET: Terms
         [Authorize]
+        [ValidateInput(false)]
         public ActionResult Index()
         {
             var terms = (from t in db.Terms select t).ToList();
@@ -27,12 +28,11 @@ namespace ApplyNureRulesApp.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Add(FormCollection form)
         {
             string termin = form["Title"].ToString();
             string definition = form["Description"].ToString();
-
-            //TODO add checking list items
 
             Term term = new Term();
 
@@ -54,6 +54,7 @@ namespace ApplyNureRulesApp.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Edit(FormCollection form)
         {
             int id = Convert.ToInt32(form["Id"].ToString());
@@ -78,6 +79,7 @@ namespace ApplyNureRulesApp.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Term term = db.Terms.Find(id);
             if (term == null)
             {

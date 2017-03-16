@@ -21,11 +21,8 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <select class="form-control selectpicker" id="category">
-                                    <option value="1">Випускники шкіл</option>
-                                    <option value="2">Випускники коледжів</option>
-                                    <option value="3">Бакалаври</option>
-                                    <option value="4">Магістри</option>
+                                <select class="form-control selectpicker" name="category">
+                                    @Html.Action("FormOptions", "Dashboard", new { categoryId = ViewBag.Item })
                                 </select>
                             </div>
                         </div>
